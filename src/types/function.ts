@@ -1,14 +1,5 @@
-export type Fn0<TResult> = () => TResult;
-export type Fn1<TP1, TResult> = (p1: TP1) => TResult;
-export type Fn2<TP1, TP2, TResult> = (p1: TP1, p2: TP2) => TResult;
-export type Fn3<TP1, TP2, TP3, TResult> = (
-  p1: TP1,
-  p2: TP2,
-  p3: TP3
-) => TResult;
-export type Fn4<TP1, TP2, TP3, TP4, TResult> = (
-  p1: TP1,
-  p2: TP2,
-  p3: TP3,
-  p4: TP4
-) => TResult;
+export type Fn0<R> = () => R;
+export type Fn1<T1, R> = (p1: T1) => R;
+export type Fn2<T1, T2, R> = (p1: T1, p2: T2) => R;
+export type Fn3<T1, T2, T3, R> = (p1: T1, p2: T2, p3: T3) => R;
+export type Fn4<T1, T2, T3, T4, R> = (p1: T1, p2: T2, p3: T3, p4: T4) => R;
