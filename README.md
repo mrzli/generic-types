@@ -14,19 +14,19 @@ See more at [src/types](src/types).
 
 ```ts
 // generic
-KeyOf<T>
-NotIterable<T>
+KeyOf<T>;
+NotIterable<T>;
 
 // function
-Fn1<T, R>
-Fn2<T1, T2, R>
-Fn3<T1, T2, T3, R>
-Fn4<T1, T2, T3, T4, R>
+Fn1<T, R>;
+Fn2<T1, T2, R>;
+Fn3<T1, T2, T3, R>;
+Fn4<T1, T2, T3, T4, R>;
 
 // object
-EmptyObject
-AnyObject
+EmptyObject;
+AnyObject;
 
 // container
-Pair<K, V>
+Pair<K, V>;
 ```
